@@ -13,12 +13,12 @@
 			}
 		},
 		methods: {
-			
-		},
-		leftClicked(){
+			leftClicked(){
 			uni.switchTab({
 				url:"/pages/index/index"
 			})
+		},
+		
 		}
 	}
 </script>

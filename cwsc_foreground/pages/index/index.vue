@@ -1,8 +1,15 @@
 <template>
 	<view >
-		<uni-nav-bar fixed height="120rpx" backgroundColor="#f9c723" title="果壳猫粮"></uni-nav-bar>
-		首页
+		<uni-nav-bar  fixed height="120rpx" backgroundColor="#f9c723" title="果壳猫粮"></uni-nav-bar>
+		
 	</view>
+	
+		<image class="top" src="../../static/index/index_top.png" mode=""></image>
+	
+	<view class="">
+		
+	</view>
+	
 </template>
 
 <script>
@@ -29,5 +36,18 @@
 </script>
 
 <style>
+	template{
+		padding: 0rpx;
+		margin: 0rpx;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
 
+	.top{
+		width: 100%;
+		height: 360rpx;
+		
+	}
 </style>
