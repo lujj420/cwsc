@@ -1,6 +1,11 @@
 <template>
 	<view>
+<<<<<<< HEAD
 		����
+=======
+		<uni-nav-bar fixed leftIcon="back" :statusBar="true" title="商品详情" @clickLeft="leftClicked"></uni-nav-bar>
+		商品详情
+>>>>>>> master
 	</view>
 </template>
 
@@ -12,7 +17,11 @@
 			}
 		},
 		methods: {
-			
+			leftClicked(){
+				uni.switchTab({
+					url:"/pages/index/index"
+				})
+			}
 		}
 	}
 </script>

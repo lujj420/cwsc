@@ -1,8 +1,6 @@
 <template>
 	<view>
-		<uni-nav-bar fixed leftIcon="home" :statusBar="true" title="分类" @clickLeft="leftClicked"></uni-nav-bar>
-		
-		
+		<uni-nav-bar fixed height="60rpx" leftIcon="back" :statusBar="true" title="搜索页" @clickLeft="leftClicked"></uni-nav-bar>
 	</view>
 </template>
 
@@ -19,11 +17,7 @@
 					url:"/pages/index/index"
 				})
 			}
-		},
-<<<<<<< HEAD
-		
-=======
->>>>>>> master
+		}
 	}
 </script>
 

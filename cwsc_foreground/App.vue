@@ -17,7 +17,6 @@
 	/*每个页面公共css */
 	@import '@/uni_modules/uni-scss/index.scss';
 	/* #ifndef APP-NVUE */
-	@import '@/static/customicons.css';
 	page {
 		background-color: #f5f5f5;
 	}

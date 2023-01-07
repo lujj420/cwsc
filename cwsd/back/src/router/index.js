@@ -1,8 +1,10 @@
 const express = require("express");
+const { collection } = require("../models/product");
 const router = express.Router();
 const Product = require("../models/product");
 
 router.get("/products", async (req, res, next) => {
+<<<<<<< HEAD
   // try {
   //     // let result = await Product.findfind({ cats: { $elemMatch: { $eq: "143016" } } });
   //     res.json(result);
@@ -22,5 +24,18 @@ router.get("/products", async (req, res, next) => {
     next(e);
   }
 });
+=======
+  try {
+      let result = await Product.find();
+        res.json({
+          code: 200,
+          data: result,
+          message: "请求成功",
+        });
+      } catch (e) {
+        next(e);
+      }
+})
+>>>>>>> master
 
 module.exports = router;
