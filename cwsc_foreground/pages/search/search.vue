@@ -1,7 +1,6 @@
 <template>
 	<view>
-		<uni-nav-bar fixed leftIcon="back" :statusBar="true" title="商品详情" @clickLeft="leftClicked"></uni-nav-bar>
-		商品详情
+		<uni-nav-bar fixed height="60rpx" leftIcon="back" :statusBar="true" title="搜索页" @clickLeft="leftClicked"></uni-nav-bar>
 	</view>
 </template>
 
