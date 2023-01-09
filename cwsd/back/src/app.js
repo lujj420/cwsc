@@ -10,7 +10,7 @@ async function main() {
 }
 main().catch(err => console.log(err));
 
-app.use("/api", router);
+app.use("/api/", router);
 
 //错误处理中间件
 app.use(function (err, req, res, next) {

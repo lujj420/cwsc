@@ -1,8 +1,8 @@
 <template>
 	<view>
 		<uni-nav-bar fixed leftIcon="home" :statusBar="true" title="分类" @clickLeft="leftClicked"></uni-nav-bar>
-		分类
-		<navigator url="/pages/detail/detail">商品</navigator>
+		
+		
 	</view>
 </template>
 
@@ -15,12 +15,15 @@
 		},
 		methods: {
 			leftClicked(){
+
 			uni.switchTab({
 				url:"/pages/index/index"
 			})
 		},
 		
 		}
+
+			
 	}
 </script>
 
